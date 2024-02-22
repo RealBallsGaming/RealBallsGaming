@@ -1,0 +1,7 @@
+from tkinter import*
+window = Tk()
+height = 500
+width = 800
+window.title("Sigma mäng")
+c = Canvas(window, width = width, height = height, bg = "darkblue")
+c.pack()
